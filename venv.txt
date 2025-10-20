@@ -1,7 +1,7 @@
 
 # Clone your repo
 git clone https://github.com/Divyansh0980/VirtualMouse_Module
-cd HandTracking
+cd VirtualMouse_Module
 
 # Create virtual environment
 python -m venv venv
