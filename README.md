@@ -78,16 +78,15 @@ python VirtualMouse.py
 
 ## 📁 Project Structure
 
-```
-virtual-mouse/
+```virtual-mouse/
 │
 ├── VirtualMouse.py          # Main application file
 ├── HandTracking.py          # Hand detection module
 ├── requirements.txt         # Project dependencies
-├── README.md               # Project documentation
-├── LICENSE                 # MIT License
-├── .gitignore             # Git ignore file
-└── Demo.gif               # Showing how will it work
+├── README.md                # Project documentation
+├── LICENSE                  # MIT License
+├── .gitignore               # Git ignore file
+└── Demo.gif                 # Showing how it works
 ```
 
 ## 🤝 Contributing
