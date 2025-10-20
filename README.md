@@ -86,6 +86,7 @@ python VirtualMouse.py
 ├── README.md                # Project documentation
 ├── LICENSE                  # MIT License
 ├── .gitignore               # Git ignore file
+├── venv.txt                 # Creating a virtual space
 └── Demo.gif                 # Showing how it works
 ```
 
