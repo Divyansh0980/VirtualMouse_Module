@@ -86,7 +86,7 @@ virtual-mouse/
 ├── requirements.txt         # Project dependencies
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
-└── .gitignore             # Git ignore file
+├── .gitignore             # Git ignore file
 └── Demo.gif               # Showing how will it work
 ```
 
