@@ -41,7 +41,7 @@ Controls:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/virtual-mouse.git
+git clone https://github.com/Divyansh0980/VirtualMouse_Module
 cd virtual-mouse
 ```
 
@@ -72,22 +72,8 @@ python VirtualMouse.py
 3. Use the gestures mentioned above to control your mouse
 4. Press 'q' to quit the application
 
-### Tips for Better Performance
 
-- Ensure good lighting conditions
-- Keep your hand within the camera frame
-- Maintain a distance of 1-2 feet from the camera
-- Use a plain background for better hand detection
 
-## 🛠️ Configuration
-
-You can adjust these parameters in `VirtualMouse.py`:
-
-```python
-frameR = 0              # Frame reduction for better control
-smoothening = 7         # Smoothening factor (higher = smoother but slower)
-click_delay = 0.3       # Delay between clicks (in seconds)
-brightness_delay = 0.2  # Delay between brightness changes
 ```
 
 ## 📁 Project Structure
@@ -101,6 +87,7 @@ virtual-mouse/
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
 └── .gitignore             # Git ignore file
+└── Demo.gif               # Showing how will it work
 ```
 
 ## 🤝 Contributing
@@ -113,11 +100,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🐛 Known Issues
 
-- Brightness control may not work on all operating systems
-- Performance may vary based on lighting conditions
-- Requires good lighting for accurate hand detection
 
 ## 📝 Future Improvements
 
@@ -138,14 +121,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenCV](https://opencv.org/) for computer vision capabilities
 - Inspired by touchless interface projects
 
-## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
-Project Link: [https://github.com/yourusername/virtual-mouse](https://github.com/yourusername/virtual-mouse)
+Project Link: [https://github.com/Divyansh0980/VirtualMouse_Module](https://github.com/Divyansh0980/VirtualMouse_Module)
 
 ---
 
 ⭐ If you found this project helpful, please consider giving it a star!
 
-**Made with ❤️ and Python**
+
