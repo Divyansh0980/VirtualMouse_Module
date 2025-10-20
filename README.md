@@ -42,7 +42,7 @@ Controls:
 
 ```bash
 git clone https://github.com/Divyansh0980/VirtualMouse_Module
-cd virtual-mouse
+cd VirtualMouse_Module
 ```
 
 ### Step 2: Install dependencies
