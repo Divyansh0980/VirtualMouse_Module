@@ -5,7 +5,7 @@ import HandTracking as ht
 import autopy
 import screen_brightness_control as sbc
 
-### Variables Declaration
+
 pTime = 0
 width = 640
 height = 480
@@ -15,7 +15,7 @@ prev_x, prev_y = 0, 0
 curr_x, curr_y = 0, 0
 
 click_cooldown = 0
-click_delay = 0.3       # 300ms delay between clicks
+click_delay = 0.3       
 
 brightness_cooldown = 0
 brightness_delay = 0.2
@@ -42,15 +42,15 @@ while True:
         print("Failed to capture frame")
         continue
     
-    img = cv2.flip(img, 1)  # Mirror image for more natural control
+    img = cv2.flip(img, 1)  
     img = detector.findHands(img)
     lmlist, bbox = detector.findPosition(img, draw=False)
 
     if len(lmlist) != 0:
-        x1, y1 = lmlist[8][1:]  # Index finger tip
-        x2, y2 = lmlist[12][1:]  # Middle finger tip
-        x3, y3 = lmlist[16][1:]  # Ring finger tip
-        x_thumb, y_thumb = lmlist[4][1:]  # Thumb tip
+        x1, y1 = lmlist[8][1:]  
+        x2, y2 = lmlist[12][1:] 
+        x3, y3 = lmlist[16][1:] 
+        x_thumb, y_thumb = lmlist[4][1:]  
 
         fingers = detector.fingersUp()
         
@@ -160,4 +160,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 print("Virtual Mouse Stopped!")
