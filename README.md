@@ -17,10 +17,6 @@ Control your computer mouse and screen brightness using hand gestures! This proj
 - **Smooth Tracking** - Built-in smoothening algorithm for stable cursor movement
 - **Real-time FPS Display** - Monitor performance in real-time
 
-## 🎥 Demo
-
-*Add your demo GIF or video here*
-
 ```
 Controls:
 👆 Index finger up          → Move cursor
