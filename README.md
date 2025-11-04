@@ -115,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [MediaPipe](https://mediapipe.dev/) for the amazing hand tracking solution
 - [OpenCV](https://opencv.org/) for computer vision capabilities
-- Inspired by touchless interface projects
+
 
 
 
